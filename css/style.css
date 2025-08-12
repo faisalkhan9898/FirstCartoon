@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    
+}
+
+.head {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+.eyes-outer {
+    width: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.eyes {
+    width: 30px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+
+.dots {
+    width: 10px;
+    height: 20px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.whitedots {
+    width: 5px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    margin-bottom: 2px;
+}
+
+.nose {
+    width: 30px;
+    height: 20px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.mouth {
+    width: 60px;
+    height: 30px;
+    background: white;
+    margin: auto;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.mouth-inner {
+    width: 40px;
+    height: 20px;
+    background: red;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.coller {
+    position: absolute;
+    width: 60px;
+    height: 15px;
+    background: red;
+    border-radius: 10px;
+    margin: auto;
+    left: 70px;
+    top: 92%;
+    z-index: 9;
+}
+
+.boddy {
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    border-radius: 20px 20px 0px 0px;
+    background: blue;
+    position: relative;
+    top: -10px;
+}
+.pocket{
+    width: 70px;
+    height: 35px;
+    background: white;
+    margin: 70px auto;
+    border-radius: 0px 0px 35px 35px;
+}
+.hand{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.glovesl{
+    width: 27px;
+    height: 27px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+}
+.glovesr{
+    width: 27px;
+    height: 27px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+}
+.handleft{
+    position: absolute;
+    width: 25px;
+    height: 80px;
+    background: blue;
+    top: 30px;
+    left: -13px;
+    border-radius: 12px;
+}.handright{
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    background: blue;
+    right: -70px;
+    top: 30px;
+    border-radius: 12px;
+}
+
+
+.foot {
+    position: relative;
+    top: -20px;
+    width: 210px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.whiteline{
+    width: 4px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    bottom: 30px;
+    left: 104px;
+}
+
+.footinner {
+    width: 55%;
+    background: white;
+    height: 50%;
+    border-radius: 25px;
+    position: relative;
+}
+.foot .footinner:nth-child(2){
+  left: 5px;
+}
+.foot .footinner:nth-child(3){
+    right: 5px;
+}
